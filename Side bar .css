@@ -1,0 +1,18 @@
+body{
+overflow-x:hidden ;
+}
+.hidden{
+    display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .destop-side-bar{
+    display: none;
+  }
+  .hidden{
+    display: block !important;
+  }
+  .mt-10{
+    margin-top: 10px;
+  }
+  }
